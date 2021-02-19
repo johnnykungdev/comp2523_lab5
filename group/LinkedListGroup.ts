@@ -53,7 +53,6 @@ class LinkedListGroup implements ISortable {
 
     compare(leftPos: number, rightPos: number): boolean {
         if (!this.at(leftPos).next) return true
-        console.log(leftPos, rightPos)
         if (this.at(leftPos).data > this.at(rightPos).data) {
             return false
         }
