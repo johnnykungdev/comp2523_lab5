@@ -1,0 +1,18 @@
+{
+  "name": "comp2523_lab5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node-dev --respawn sort.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^4.1.5"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.1.1"
+  }
+}
